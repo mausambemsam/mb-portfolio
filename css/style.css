@@ -1,0 +1,157 @@
+/* google fonts - start */
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+/* google fonts - end */
+
+/* keyframes - start */
+
+@keyframes show-up {
+  from {
+    opacity: 0;
+    transform: translate3d(0,30px,0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0,0,0);
+  }
+}
+
+@keyframes show-side {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* keyframes - end */
+
+/* default - start */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+p#empty-text {
+  display: none;
+}
+
+a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  margin-top: 28px;
+  transition: 0.5s;
+  animation: show-up 1s forwards;
+}
+
+p {
+  display: flex;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
+  margin-top: 10px;
+  color: #666666;
+  transition: 0.5s;
+  animation: show-up 1.6s forwards;
+}
+
+body {
+  background-color: #171717;
+}
+
+img {
+  max-width: 100%;
+  transition: 0.5s;
+}
+
+/* default - end */
+
+/* main - start */
+
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    animation: show-up 0.5s forwards;
+    padding: 0 0 70px 0;
+  }
+
+  /* main - end */
+
+  /* links-icon-container li - start */
+
+  .links-icon-container li {
+    margin-right: 16px;
+    transition: 0.5s;
+    border-radius: 10px;
+  }
+
+  .links-icon-container li:hover {
+    transform: translateY(-10px);
+  }
+
+  /* links-icon-container li - end */
+
+  /* circle-style (span) - start */
+
+  .circle-style {
+    width: 6px;
+    height: 6px;
+    margin: 0 10px;
+    background: #545608;
+    display: inline-block;
+    border-radius: 100px;
+    transition: 0.5s;
+  }
+
+  /* circle-style (span) - end */
+
+  /* img-decoracao - start */
+
+  .img-decoracao {
+    position: absolute;
+    padding: 30px;
+    bottom: 0;
+    right: 30px;
+    transition: 0.5s;
+    animation: show-side 1s forwards;
+  }
+
+  /* img-decoracao - end */
+
+  /* media queries - start */
+
+  @media screen and (max-width: 500px) {
+    body {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 100px 0;
+    }
+
+    .img-decoracao {
+      display: none;
+    }
+
+    p#empty-text {
+      font-family: fantasy;
+      display: block;
+      position: absolute;
+      bottom: -200px;
+    }
+  }
+
+  /* media queries - end */
+
