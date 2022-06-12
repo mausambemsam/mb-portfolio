@@ -4,7 +4,7 @@
 
 /* google fonts - end */
 
-/* keyframes - start */
+/* keyframes - start
 
 @keyframes show-up {
   from {
@@ -28,7 +28,7 @@
 
 /* keyframes - end */
 
-/* default - start */
+/* default - start
 
 * {
   margin: 0;
@@ -75,7 +75,7 @@ img {
 
 /* default - end */
 
-/* main - start */
+/* main - start 
 
   main {
     display: flex;
@@ -89,7 +89,7 @@ img {
 
   /* main - end */
 
-  /* links-icon-container li - start */
+  /* links-icon-container li - start 
 
   .links-icon-container li {
     margin-right: 16px;
@@ -103,7 +103,7 @@ img {
 
   /* links-icon-container li - end */
 
-  /* circle-style (span) - start */
+  /* circle-style (span) - start 
 
   .circle-style {
     width: 6px;
@@ -117,7 +117,7 @@ img {
 
   /* circle-style (span) - end */
 
-  /* img-decoracao - start */
+  /* img-decoracao - start 
 
   .img-decoracao {
     position: absolute;
@@ -130,7 +130,7 @@ img {
 
   /* img-decoracao - end */
 
-  /* media queries - start */
+  /* media queries - start 
 
   @media screen and (max-width: 500px) {
     body {
