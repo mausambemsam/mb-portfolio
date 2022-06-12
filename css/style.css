@@ -4,6 +4,33 @@
 
 /* google fonts - end */
 
+/* default - start */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #545608;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+/* default - end*/
+
+/* coming soon - start */
+
+h1 {
+  font-size: 96px;
+  color: #888A3C;
+}
+
+/* coming soon - end */
+
 /* keyframes - start
 
 @keyframes show-up {
